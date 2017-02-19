@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+${DEB_HOST_ARCH}/DisplayLinkManager /opt/displaylink/

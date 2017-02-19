@@ -1,0 +1,15 @@
+Source: displaylink
+Section: utils
+Priority: optional
+Maintainer: Shengjing Zhu <i@zhsj.me>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: http://www.displaylink.com/downloads/ubuntu
+Vcs-Git: https://github.com/zhsj/displaylink.git
+Vcs-Browser: https://github.com/zhsj/displaylink
+
+Package: displaylink
+Architecture: amd64 i386
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: DisplayLink Manager
+ DisplayLink USB Graphics Software
