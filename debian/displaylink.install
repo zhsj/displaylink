@@ -1,2 +1,6 @@
 #!/usr/bin/dh-exec
 ${DEB_HOST_ARCH}/DisplayLinkManager /opt/displaylink/
+displaylink.service /lib/systemd/system
+displaylink-sleep.sh /opt/displaylink/
+udev.sh /opt/displaylink/
+99-displaylink.rules /lib/udev/rules.d/
