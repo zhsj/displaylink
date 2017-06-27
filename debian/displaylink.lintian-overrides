@@ -1,2 +1,3 @@
-displaylink: binary-or-shlib-defines-rpath
+displaylink: binary-or-shlib-defines-rpath usr/bin/DisplayLinkManager .
 displaylink: hardening-no-pie usr/bin/DisplayLinkManager
+displaylink: binary-without-manpage usr/bin/DisplayLinkManager
