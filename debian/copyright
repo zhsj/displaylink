@@ -10,6 +10,10 @@ Files: debian/*
 Copyright: Shengjing Zhu <i@zhsj.me>
 License: GPL-3.0+
 
+Files: debian/displaylink.udev
+Copyright: DisplayLink (UK) Ltd.
+License: DisplayLink-EULA
+
 License: GPL-3.0+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -133,8 +137,7 @@ License: DisplayLink-EULA
  .
  9. U.S. GOVERNMENT RESTRICTED RIGHTS. The Software is provided with "RESTRICTED
  RIGHTS." Use, duplication, or disclosure by the Government is subject to restrictions as set forth in
- FAR 52.227-14 and DFAR 252.227-7013 et seq. or its successor. Use of the Software by the 
+ FAR 52.227-14 and DFAR 252.227-7013 et seq. or its successor. Use of the Software by the
  Government constitutes acknowledgment of DisplayLink's proprietary rights therein. Contractor or
  Manufacturer is DisplayLink (UK) Limited, Mount Pleasant House, Mount Pleasant, Cambridge CB3
- 0RN, United Kingdom. 
-
+ 0RN, United Kingdom.

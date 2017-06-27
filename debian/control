@@ -1,15 +1,20 @@
 Source: displaylink
-Section: utils
+Section: non-free/utils
 Priority: optional
 Maintainer: Shengjing Zhu <i@zhsj.me>
-Build-Depends: debhelper (>= 10), dh-exec, libusb-1.0-0, libuuid1
-Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 10),
+ dh-exec,
+ libusb-1.0-0-dev,
+ uuid-dev,
+Standards-Version: 4.0.0
 Homepage: http://www.displaylink.com/downloads/ubuntu
 Vcs-Git: https://github.com/zhsj/displaylink.git
 Vcs-Browser: https://github.com/zhsj/displaylink
 
 Package: displaylink
 Architecture: amd64 i386
-Depends: evdi-dkms | evdi-modules, ${misc:Depends}, ${shlibs:Depends}
-Description: DisplayLink Manager
- DisplayLink USB Graphics Software
+Depends: ${misc:Depends}, ${shlibs:Depends},
+ evdi-dkms | evdi-modules,
+ libevdi,
+Description: DisplayLink USB Graphics Software
+ The driver enables video support for products using DisplayLink USB 3.0 technology.
