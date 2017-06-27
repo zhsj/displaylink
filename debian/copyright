@@ -3,15 +3,15 @@ Upstream-Name: displaylink
 Source: http://www.displaylink.com/downloads/ubuntu
 
 Files: *
-Copyright: DisplayLink (UK) Ltd.
+Copyright: 2017, DisplayLink (UK) Ltd.
 License: DisplayLink-EULA
 
 Files: debian/*
-Copyright: Shengjing Zhu <i@zhsj.me>
+Copyright: 2017, Shengjing Zhu <i@zhsj.me>
 License: GPL-3.0+
 
 Files: debian/displaylink.udev
-Copyright: DisplayLink (UK) Ltd.
+Copyright: 2017, DisplayLink (UK) Ltd.
 License: DisplayLink-EULA
 
 License: GPL-3.0+

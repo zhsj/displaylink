@@ -16,5 +16,6 @@ Architecture: amd64 i386
 Depends: ${misc:Depends}, ${shlibs:Depends},
  evdi-dkms | evdi-modules,
  libevdi,
-Description: DisplayLink USB Graphics Software
- The driver enables video support for products using DisplayLink USB 3.0 technology.
+Description: USB graphics driver for DisplayLink products
+ The driver enables video support for products using DisplayLink
+ USB 3.0 technology.
