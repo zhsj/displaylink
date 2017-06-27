@@ -74,12 +74,12 @@ main()
 
 start_service()
 {
-  systemctl start dlm
+  systemctl start displaylink
 }
 
 stop_service()
 {
-  systemctl stop dlm
+  systemctl stop displaylink
 }
 
 main $ACTION $1 $2 $3

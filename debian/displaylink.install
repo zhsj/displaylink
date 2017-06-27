@@ -1,6 +1,6 @@
 #!/usr/bin/dh-exec
-${DEB_HOST_ARCH}/DisplayLinkManager /opt/displaylink/
-dlm.service /lib/systemd/system
+${DEB_HOST_ARCH}/DisplayLinkManager /usr/bin/
+debian/displaylink.service /lib/systemd/system
 displaylink-sleep.sh => /lib/systemd/system-sleep/displaylink
-udev.sh /opt/displaylink/
-firmware/* /opt/displaylink/
+udev.sh /usr/share/displaylink/
+firmware/* /usr/share/displaylink/

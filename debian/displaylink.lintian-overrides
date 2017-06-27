@@ -1,3 +1,2 @@
 displaylink: binary-or-shlib-defines-rpath
-displaylink: hardening-no-pie opt/displaylink/DisplayLinkManager
-displaylink: dir-or-file-in-opt
+displaylink: hardening-no-pie usr/bin/DisplayLinkManager
