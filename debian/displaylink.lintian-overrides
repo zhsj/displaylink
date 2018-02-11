@@ -1,3 +1,4 @@
-displaylink: binary-or-shlib-defines-rpath usr/bin/DisplayLinkManager .
 displaylink: hardening-no-pie usr/bin/DisplayLinkManager
+displaylink: hardening-no-bindnow usr/bin/DisplayLinkManager
 displaylink: binary-without-manpage usr/bin/DisplayLinkManager
+displaylink: systemd-service-file-missing-install-key lib/systemd/system/displaylink.service

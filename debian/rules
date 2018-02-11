@@ -1,6 +1,22 @@
 #!/usr/bin/make -f
 
+include /usr/share/dpkg/default.mk
+
 %:
 	dh $@
+
+override_dh_auto_install:
+	mkdir -p debian/displaylink/usr/bin/
+	install -m755 $(DEB_TARGET_ARCH)/DisplayLinkManager debian/displaylink/usr/bin/
+	chrpath -d debian/displaylink/usr/bin/DisplayLinkManager
+
+	mkdir -p debian/displaylink/usr/share/displaylink/
+	install -m644 firmware/* debian/displaylink/usr/share/displaylink/
+
+	mkdir -p debian/displaylink/usr/lib/displaylink/
+	install -m755 udev.sh debian/displaylink/usr/lib/displaylink/
+
+	mkdir -p debian/displaylink/lib/systemd/system-sleep
+	install -m755 displaylink-sleep.sh debian/displaylink/lib/systemd/system-sleep/displaylink
 
 override_dh_installinit:

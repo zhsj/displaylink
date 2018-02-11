@@ -1,5 +1,0 @@
-#!/usr/bin/dh-exec
-${DEB_HOST_ARCH}/DisplayLinkManager /usr/bin/
-displaylink-sleep.sh => /lib/systemd/system-sleep/displaylink
-udev.sh /usr/share/displaylink/
-firmware/* /usr/share/displaylink/

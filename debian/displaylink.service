@@ -1,5 +1,6 @@
 [Unit]
 Description=DisplayLink Manager Service
+Documentation=https://support.displaylink.com/knowledgebase/topics/103927-troubleshooting-ubuntu
 After=display-manager.service
 Conflicts=getty@tty7.service
 
