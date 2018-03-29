@@ -1,3 +1,9 @@
+displaylink (4.2.29) unstable; urgency=medium
+
+  * New upstream release 4.2.29
+
+ -- Shengjing Zhu <i@zhsj.me>  Thu, 29 Mar 2018 13:38:19 +0800
+
 displaylink (4.1.9.1) unstable; urgency=medium
 
   * Add example xorg conf.
